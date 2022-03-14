@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="icon"
+            href="https://img.icons8.com/external-ddara-flat-ddara/50/000000/external-ticket-music-fest-ddara-flat-ddara.png"
+        />
+        <title>Rock Festival</title>
+        <link rel="stylesheet" href="build/css/app.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body id="inicio">
+        <header class="header">
+            <div class="contenedor contenido-header">
+                <h1 href="#inicio">Rock Festival</h1>
+                <nav class="navegacion-principal">
+                    <a href="#lineup">Line Up</a>
+                    <a href="#galeria">Galería</a>
+                    <a href="#boletos">Boletos</a>
+                </nav>
+            </div>
+        </header>
+        <div class="video">
+            <div class="overlay">
+                <div class="contenedor contenido-video">
+                    <h2>Rock Festival</h2>
+                    <p>Febrero 2022, Santa Fe, Argentina.</p>
+                </div>
+            </div>
+            <video autoplay muted loop>
+                <source src="video/concierto.mp4" type="video/mp4" />
+                <source src="video/concierto.ogg" type="video/concierto.ogg" />
+                <source
+                    src="video/concierto.webm"
+                    type="video/concierto.webm"
+                />
+            </video>
+        </div>
+        <section class="contenedor sobre-festival">
+            <div class="imagen">
+                <picture>
+                    <source
+                        srcset="build/img/imagen_vocalista.avif"
+                        type="image/avif"
+                    />
+                    <source
+                        srcset="build/img/imagen_vocalista.webp"
+                        type="image/webp"
+                    />
+                    <img
+                        width="200"
+                        height="300"
+                        src="build/img/imagen_vocalista.jpg"
+                        alt="Imagen Vocalista Festival"
+                    />
+                </picture>
+            </div>
+            <div class="contenido-festival">
+                <h2>Rock Festival</h2>
+                <p class="fecha">Febrero 2022, Santa Fe, Argentina</p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Illo delectus atque quaerat esse, quos libero consequatur
+                    quidem numquam eos, deleniti illum, mollitia culpa laborum.
+                    Dolorum, culpa ducimus! Laboriosam, ipsum soluta?
+                </p>
+            </div>
+        </section>
+
+        <section id="lineup" class="lineup">
+            <h3>Line Up</h3>
+            <p class="dia">Sabado 12</p>
+            <div class="escenarios-contenedor contenedor">
+                <div class="escenario norte bg-amarillo">
+                    <p class="nombre-escenario">Escenario Norte</p>
+                    <ul class="calendario">
+                        <li>14:00 - <span> WOS</span></li>
+                        <li>14:40 - <span> BABASÓNICOS</span></li>
+                        <li>15:20 - <span> CIRO Y LOS PERSAS</span></li>
+                        <li>16:00 - <span> GUASONES</span></li>
+                        <li>16:45 - <span> LOS AUTÉNTICOS DECADENTES</span></li>
+                        <li>17:30 - <span> AIRBAG</span></li>
+                    </ul>
+                </div>
+                <!-- .escenario -->
+                <div class="escenario sur bg-verde">
+                    <p class="nombre-escenario">Escenario Sur</p>
+                    <ul class="calendario">
+                        <li>14:00 - <span> LA VELA PUERCA</span></li>
+                        <li>14:40 - <span> DIVIDIDOS</span></li>
+                        <li>15:20 - <span> TURF</span></li>
+                        <li>16:00 - <span> TRUENO</span></li>
+                        <li>16:45 - <span> EL KUELGUE</span></li>
+                        <li>17:30 - <span> ACRU</span></li>
+                    </ul>
+                </div>
+                <!-- .escenario -->
+            </div>
+            <!-- .escenario-contenedor -->
+
+            <p class="dia">Domingo 13</p>
+            <div class="escenarios-contenedor contenedor">
+                <div class="escenario norte bg-verde">
+                    <p class="nombre-escenario">Escenario Norte</p>
+                    <ul class="calendario">
+                        <li>14:00 - <span> FITO PÁEZ</span></li>
+                        <li>14:40 - <span> MIRANDA!</span></li>
+                        <li>15:20 - <span> MARÍA BECERRA</span></li>
+                        <li>16:00 - <span> SKAY Y LOS FAKIRES</span></li>
+                        <li>
+                            16:45 -
+                            <span> EL MATÓ A UN POLICÍA MOTORIZADO</span>
+                        </li>
+                        <li>17:30 - <span> ERUCA SATIVA</span></li>
+                    </ul>
+                </div>
+                <!-- .escenario -->
+                <div class="escenario sur bg-amarillo">
+                    <p class="nombre-escenario">Escenario Sur</p>
+                    <ul class="calendario">
+                        <li>14:00 - <span> CRUZANDO EL CHARCO</span></li>
+                        <li>14:40 - <span> SUEÑO DE PESCADO</span></li>
+                        <li>15:20 - <span> ESCALÓPEZ</span></li>
+                        <li>16:00 - <span> INAZULINA</span></li>
+                        <li>16:45 - <span> LA MONA JIMÉNEZ</span></li>
+                        <li>17:30 - <span> KERMESSE REDONDA</span></li>
+                    </ul>
+                </div>
+                <!-- .escenario -->
+            </div>
+            <!-- .escenario-contenedor -->
+        </section>
+        <section id="galeria" class="galeria contenedor">
+            <h3>Galería</h3>
+            <ul class="galeria-imagenes"></ul>
+        </section>
+        <section id="boletos" class="boletos bg-verde">
+            <h3>Boletos</h3>
+            <div class="contenedor contenedor-boletos">
+                <div class="basico pase">
+                    <p class="nombre-pase">Pase 1 Día</p>
+                    <header class="pase-header">
+                        <p>Incluye</p>
+                    </header>
+                    <div class="pase-body">
+                        <ul>
+                            <li>Acceso a ambos escenarios</li>
+                            <li>Comida y Bebida</li>
+                        </ul>
+                    </div>
+                    <footer class="pase-footer">
+                        <p>$100</p>
+                    </footer>
+                </div>
+                <div class="premium pase">
+                    <p class="nombre-pase">Pase 2 Días</p>
+                    <header class="pase-header">
+                        <p>Incluye</p>
+                    </header>
+                    <div class="pase-body">
+                        <ul>
+                            <li>Acceso a ambos escenarios</li>
+                            <li>Comida y Bebida</li>
+                            <li>Camisa del Evento</li>
+                            <li>Acceso VIP</li>
+                        </ul>
+                    </div>
+                    <footer class="pase-footer">
+                        <p>$180</p>
+                    </footer>
+                </div>
+            </div>
+        </section>
+        <footer class="site-footer">
+            <p>Rock Festival. Todos los derechos reservados.</p>
+        </footer>
+    </body>
+    <!-- <script src="/test.js"></script> -->
+    <script src="build/js/app.js"></script>
+</html>
